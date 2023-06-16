@@ -1,0 +1,30 @@
+h1 {
+  color: #321;
+  border: 2px solid red;
+}
+
+p {
+  color: #321;
+  border: 2px solid red;
+}
+
+a {
+  color: #321;
+}
+
+div p {
+  color: #FFF;
+  background-color: blue;
+  border: 3px dotted green;
+}
+div p span {
+  color: red;
+  border: 3px dotted green;
+}
+
+h2 {
+  color: green;
+  border: 2px solid red;
+}
+
+/*# sourceMappingURL=styles.css.map */

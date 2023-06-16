@@ -1,0 +1,85 @@
+
+$bg-color: #DDD
+
+div,main
+    background: $bg-color
+
+    p,h2
+        color: lightblue
+
+main
+    .p-vermelho
+        color: red
+
+li
+    color: purple
+
+ol
+    > li
+        color: blue
+a
+    text-decoration: none
+    color: green
+    transition: .5s
+    padding: .625rem
+    border: 1px solid green
+    display: block
+    width: 150px
+    text-align: center
+
+    &:hover
+        background-color: green
+        color: white
+
+.container
+    background-color: #ccc
+    padding: 1.25rem
+    margin: 1.25rem
+
+    &-content
+        color: red
+
+.spacing
+    padding: 1.25rem
+
+.btn
+    padding: 10px .625rem
+    border: 1px solid blue
+    border-radius: .3125rem
+    color: #FFF
+    background-color: blue
+    cursor: pointer
+    margin: 5px
+    &:hover
+        background-color: transparent
+        color: blue
+
+    &-sucess
+        background-color: green
+        border-color: green
+        &:hover
+            color: green
+            background-color: transparent
+    &-danger
+        background-color: red
+        border-color: red
+
+        &:hover
+            background-color: transparent
+            color: red
+
+%base-title-style
+    border-bottom: 3px dotted red
+    padding: .625rem
+    background-color: yellow
+    text-align: center
+    color: green
+
+.title
+    font-size: 1.875rem
+    @extend  %base-title-style
+
+.sub-title
+    font-size: 1.5625rem
+    @extend  %base-title-style
+    color: blue

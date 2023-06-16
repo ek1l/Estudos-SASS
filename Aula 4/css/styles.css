@@ -1,0 +1,95 @@
+div, main {
+  background: #DDD;
+}
+div p, div h2, main p, main h2 {
+  color: lightblue;
+}
+
+main .p-vermelho {
+  color: red;
+}
+
+li {
+  color: purple;
+}
+
+ol > li {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  transition: 0.5s;
+  padding: 0.625rem;
+  border: 1px solid green;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+a:hover {
+  background-color: green;
+  color: white;
+}
+
+.container {
+  background-color: #ccc;
+  padding: 1.25rem;
+  margin: 1.25rem;
+}
+.container-content {
+  color: red;
+}
+
+.spacing {
+  padding: 1.25rem;
+}
+
+.btn {
+  padding: 10px 0.625rem;
+  border: 1px solid blue;
+  border-radius: 0.3125rem;
+  color: #FFF;
+  background-color: blue;
+  cursor: pointer;
+  margin: 5px;
+}
+.btn:hover {
+  background-color: transparent;
+  color: blue;
+}
+.btn-sucess {
+  background-color: green;
+  border-color: green;
+}
+.btn-sucess:hover {
+  color: green;
+  background-color: transparent;
+}
+.btn-danger {
+  background-color: red;
+  border-color: red;
+}
+.btn-danger:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.sub-title, .title {
+  border-bottom: 3px dotted red;
+  padding: 0.625rem;
+  background-color: yellow;
+  text-align: center;
+  color: green;
+}
+
+.title {
+  font-size: 1.875rem;
+}
+
+.sub-title {
+  font-size: 1.5625rem;
+  color: blue;
+}
+
+/*# sourceMappingURL=styles.css.map */
