@@ -1,8 +1,4 @@
-// ESCOPO GLOBAL
-$text-color: #321
-$bg-color: blue
-$h2color: green
-$border: 2px solid red
+@import  'variables'
 
 h1
     color: $text-color
@@ -11,10 +7,12 @@ h1
 p
     color: $text-color
     border: $border
+    font-size: $main-font
+    margin: #{$mx + 10  px} 
 
 a
     color: $text-color
-
+    font-size: $main-font
 div
     p
         $font-color: #FFF
