@@ -1,6 +1,7 @@
 @import 'variables'
 @import 'button'
 @import 'mixins'
+@import 'plugins'
 
 body
     margin: 20px
@@ -11,20 +12,38 @@ body
 h2
     @include special
 
+
 .esp-menor
     @include espacamento(10px, 10px)
-    border: 1px solid red
+    @include custom-border(solid, red)
+    @include colors
+    @extend %font-pattern
 
 .esp-medio
     @include espacamento(15px, 15px)
-    border: 1px solid blue
+    @include custom-border(dotted, blue, 4px)
+    @include colors($background: #321)
+    @extend %font-pattern
 
 .esp-maior
     @include espacamento(25px, 25px)
-    border: 1px solid green
+    @include custom-border(solid, green)
+    @include colors($background: #336699, $font: #991155)
+    @extend %font-pattern
 
 .esp-maior-ainda
     $pad: 35px
     $marg: 35px
     @include espacamento($pad, $marg)
-    border: 1px solid gold
+    @include custom-border(double, gold, 3px)
+    @include colors($font: gold)
+    @extend %font-pattern
+
+$medida: 4
+.container-menor
+    width: 100px * ($medida + 2)
+    @include custom-border(solid,green)
+
+.container-maior
+    @include custom-border(solid, red)
+    width: 25rem * $medida

@@ -12,6 +12,12 @@
   color: #ddd;
 }
 
+.esp-maior-ainda, .esp-maior, .esp-medio, .esp-menor {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
 body {
   margin: 20px;
 }
@@ -44,24 +50,42 @@ h2:hover {
   padding: 10px;
   margin: 10px;
   border: 1px solid red;
+  color: #000;
+  background-color: #FFF;
 }
 
 .esp-medio {
   padding: 15px;
   margin: 15px;
-  border: 1px solid blue;
+  border: 4px dotted blue;
+  color: #000;
+  background-color: #321;
 }
 
 .esp-maior {
   padding: 25px;
   margin: 25px;
   border: 1px solid green;
+  color: #991155;
+  background-color: #336699;
 }
 
 .esp-maior-ainda {
   padding: 35px;
   margin: 35px;
-  border: 1px solid gold;
+  border: 3px double gold;
+  color: gold;
+  background-color: #FFF;
+}
+
+.container-menor {
+  width: 600px;
+  border: 1px solid green;
+}
+
+.container-maior {
+  border: 1px solid red;
+  width: 100rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
