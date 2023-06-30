@@ -1,0 +1,19 @@
+.btn {
+  background-color: #ddd;
+  color: #000;
+  padding: 12px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btn:hover {
+  background-color: #000;
+  color: #ddd;
+}
+
+body {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
