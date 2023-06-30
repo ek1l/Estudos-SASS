@@ -16,4 +16,52 @@ body {
   margin: 20px;
 }
 
+.p-esp {
+  color: red;
+  background-color: yellow;
+  padding: 0.625rem;
+  border: 2px solid red;
+  transition: 0.4s;
+}
+.p-esp:hover {
+  border-color: blue;
+  color: blue;
+}
+
+h2 {
+  color: red;
+  background-color: yellow;
+  padding: 0.625rem;
+  border: 2px solid red;
+  transition: 0.4s;
+}
+h2:hover {
+  border-color: blue;
+  color: blue;
+}
+
+.esp-menor {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.esp-medio {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid blue;
+}
+
+.esp-maior {
+  padding: 25px;
+  margin: 25px;
+  border: 1px solid green;
+}
+
+.esp-maior-ainda {
+  padding: 35px;
+  margin: 35px;
+  border: 1px solid gold;
+}
+
 /*# sourceMappingURL=styles.css.map */
