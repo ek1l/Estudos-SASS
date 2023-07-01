@@ -1,7 +1,9 @@
+@charset "UTF-8"
 @import 'variables'
 @import 'button'
 @import 'mixins'
 @import 'plugins'
+@import 'functions'
 
 body
     margin: 20px
@@ -11,7 +13,6 @@ body
 
 h2
     @include special
-
 
 .esp-menor
     @include espacamento(10px, 10px)
@@ -40,6 +41,7 @@ h2
     @extend %font-pattern
 
 $medida: 4
+
 .container-menor
     width: 100px * ($medida + 2)
     @include custom-border(solid,green)
@@ -47,3 +49,11 @@ $medida: 4
 .container-maior
     @include custom-border(solid, red)
     width: 25rem * $medida
+
+.fonte-pequena
+    font-size: 5px
+    color: text-color(5)
+
+.fonte-grandee
+    font-size: 25px
+    color: text-color(25)
