@@ -1,0 +1,9 @@
+-SMACSS é refêrencia que vamos utilizar para arquitetar nosso SASS;
+
+- Neste padrão o CSS é dividido em  partes:
+
+- Base: Regras básicas de estilo, elementos gerais;
+- Layout: Elementos que formam a página, ex: header;
+- Module: Componentes menores;
+- State e Theme: regras que sobrepõe outras e cores do tema;
+- Vamos adaptar e trazer isso para a realidade do SASS
